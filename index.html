@@ -279,15 +279,20 @@
         </section>
 
 <script>
-    window.addEventListener("load", function() {
-        const loader = document.getElementById("preloader");
+window.addEventListener("load", function() {
+    const loader = document.getElementById("preloader");
+
+    setTimeout(() => {
         loader.classList.add("hide");
-    });
+    }, 1000); // 1000ms = 1 second
+});
 </script>
+
 
 </body> 
  
 </html>
+
 
 
 
